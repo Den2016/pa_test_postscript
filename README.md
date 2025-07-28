@@ -10,3 +10,10 @@
 <img width="635" height="794" alt="image" src="https://github.com/user-attachments/assets/7eb6c3e4-6de1-4d29-b287-0bc390793d52" />
 
 Первоначально был разработан скрипт для запуска из командной строки, данная версия переделана под использование именно в качестве скрипта постобработки из слайсера. В [репозитории](https://github.com/Den2016/PressureAdvanceTestPostscript/tree/main/projects) представлены файлы 3mf для PrusaSlicer и QidiSlicer, которые содержат объекты для теста. [Там же](https://github.com/Den2016/PressureAdvanceTestPostscript/blob/main/README.md) приведена и интерпретация результатов.
+
+Скрипт принимает, кроме имени файла, два параметра - startPA и endPA, по умолчанию они задаются как 0.05 и 0.15. Если есть необходимость тестировать в других диапазонах - укажите эти параметры явно в слайсере, например впишите такую строку
+
+ ```
+"C:\Program Files\Python313\python.exe" "C:\scripts\pa_test_postscript\pa_test.py" -startPA 0.02 -endPA 0.2```
+
+Разумеетя, пути нужно изменить на ваши
