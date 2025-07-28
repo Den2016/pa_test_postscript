@@ -9,4 +9,4 @@
 <img width="735" height="549" alt="image" src="https://github.com/user-attachments/assets/232dc288-bce3-4a99-a60f-cb82fb5b82e0" />
 <img width="635" height="794" alt="image" src="https://github.com/user-attachments/assets/7eb6c3e4-6de1-4d29-b287-0bc390793d52" />
 
-Первоначально был разработан скрипт для запуска из командной строки, данная версия переделана под использование именно в качестве скрипта постобработки из слайсера. В https://github.com/Den2016/PressureAdvanceTestPostscript представлены файлы 3mf для PrusaSlicer и QidiSlicer, которые содержат объекты для теста. Там же приведена и интерпретация результатов.
+Первоначально был разработан скрипт для запуска из командной строки, данная версия переделана под использование именно в качестве скрипта постобработки из слайсера. В [репозитории](https://github.com/Den2016/PressureAdvanceTestPostscript/tree/main/projects) представлены файлы 3mf для PrusaSlicer и QidiSlicer, которые содержат объекты для теста. [Там же](https://github.com/Den2016/PressureAdvanceTestPostscript/blob/main/README.md) приведена и интерпретация результатов.
