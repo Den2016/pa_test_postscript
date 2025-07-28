@@ -14,7 +14,8 @@
 Скрипт принимает, кроме имени файла, два параметра - startPA и endPA, по умолчанию они задаются как 0.05 и 0.15. Если есть необходимость тестировать в других диапазонах - укажите эти параметры явно в слайсере, например впишите такую строку
 
  ```
-"C:\Program Files\Python313\python.exe" "C:\scripts\pa_test_postscript\pa_test.py" -startPA 0.02 -endPA 0.2```
+"C:\Program Files\Python313\python.exe" "C:\scripts\pa_test_postscript\pa_test.py" -startPA 0.02 -endPA 0.2
+```
 
 Разумеетя, пути нужно изменить на ваши
 
